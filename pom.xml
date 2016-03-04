@@ -41,6 +41,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spirng.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
@@ -62,6 +68,7 @@
             <artifactId>mybatis-spring</artifactId>
             <version>${mybatis-spring.version}</version>
         </dependency>
+
 
         <!-- connection pool -->
         <dependency>
