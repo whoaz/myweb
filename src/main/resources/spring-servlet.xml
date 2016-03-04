@@ -18,5 +18,7 @@
           p:viewClass="org.springframework.web.servlet.view.JstlView"
           p:prefix="/WEB-INF/view/" p:suffix=".jsp" />
 
+
+
     <bean id="logPostProcessor" class="com.yida.myweb.common.bean.LogPostProcessor"/>
 </beans>
